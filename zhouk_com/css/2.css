@@ -1,0 +1,185 @@
+*{
+margin:0;
+padding:0;
+}
+body {
+font: 0.9em "Lucida Grande","Lucida Sans Unicode",geneva,verdana,sans-serif;
+margin:10px;
+color:#333;
+}
+#header h1{
+text-align:center;
+font:italic 3.5em Georgia;
+color:#222;
+margin-top:50px;
+letter-spacing:-1px;
+}
+#header h1 a{
+color:#222;
+text-decoration:none;
+}
+#header h1 a:hover{
+color:#000;
+background-color:#fff;
+}
+#header h2 {
+text-align:center;
+font:100% Verdana;
+letter-spacing:2px;
+color:#666;
+margin:10px 0 40px;
+}
+p {
+margin:15px 0;
+line-height:19px;
+}
+a{
+color:#f10;
+text-decoration:underline;
+}
+a:hover{
+color:#fff;
+background-color:#c00;
+}
+pre{
+padding:10px 0 10px 20px;
+color:#333;
+font-size:1.1em;
+}
+#footer {
+width:600px;
+margin:10px auto 0;
+color:#888;
+clear:none;
+}
+#footer a {
+color:#666;
+text-decoration:none;
+font-weight:bold;
+}
+#footer .right{
+float:right;
+}
+#footer a:hover{
+color:#fff;
+}
+#container{
+width:600px;
+margin:0 auto;
+font: 0.9em Verdana;
+line-height: 1.2em;
+letter-spacing: 0;
+text-align: left;
+word-spacing: normal;
+color: #444;
+}
+#container-code{
+margin:0 auto;
+line-height: 1.2em;
+font: 0.9em Verdana;
+letter-spacing: 0;
+text-align: left;
+word-spacing: normal;
+text-decoration: none;
+color: #444;
+}
+.accordion-head{
+margin:5px auto;
+padding:10px 8px;
+background-color:#06c;
+color:#fff;
+font-size:1.2em;
+font-weight:bold;
+cursor:pointer;
+}
+.accordion-head:hover{
+color:#aaa;
+}
+.accordion-section{
+margin:0px auto;
+width:580px;
+}
+.sidebar{
+float:right;
+margin:200px 2% 0px 0px;
+padding:10px 0 0 0;
+width:12%;
+}
+.sidebar .header{
+border-bottom:10px solid #06c;
+margin:0 0 10px 0;
+}
+.sidebar a{
+color:#333;
+padding:2px 0 2px 0;
+}
+.sidebar a:hover{
+color:#fff;
+background-color:#666;
+}
+.type-bold{
+font-weight:bold;
+line-height:20px;
+font-size:16px;
+}
+.type-file{
+font-size:1.4em;
+margin:10px;
+line-height:40px;
+}
+.code-section{
+margin:16px 0 16px 0;
+}
+.code-header{
+font-weight:bold;
+font-size:1.3em;
+}
+.code-title{
+font-weight:bold;
+font-size:1.1em;
+}
+.code-sub{
+font-size:.9em;
+font-style:italic;
+}
+.code-fyi{
+border:2px solid #ccc;
+width:600px;
+padding:20px;
+margin:20px;
+}
+.code-main{
+}
+.invisible{
+color:#fff;
+font-size:.1em;
+}
+b.niftycorners,b.niftyfill{display:block}
+b.niftycorners *{display:block;height: 1px;line-height:1px;font-size: 1px;
+overflow:hidden;border-style:solid;border-width: 0 1px}
+b.r1{margin:0 3px;border-width: 0 2px}
+b.r2{margin:0 2px}
+b.r3{margin:0 1px}
+b.r4{height:2px}
+b.rb1{margin:0 8px;border-width:0 2px}
+b.rb2{margin:0 6px;border-width:0 2px}
+b.rb3{margin:0 5px}
+b.rb4{margin:0 4px}
+b.rb5{margin:0 3px}
+b.rb6{margin:0 2px}
+b.rb7{margin:0 1px;height:2px}
+b.rb8{margin:0;height:2px}
+b.rs1{margin:0 1px}
+b.t1{border-width:0 5px}
+b.t2{border-width:0 3px}
+b.t3{border-width:0 2px}
+b.t4{height:2px}
+b.tb1{border-width:0 10px}
+b.tb2{border-width:0 8px}
+b.tb3{border-width:0 6px}
+b.tb4{border-width:0 5px}
+b.tb5{border-width:0 4px}
+b.tb6{border-width:0 3px}
+b.tb7{border-width:0 2px;height:2px}
+b.tb8{border-width:0 1px;height:2px}
+b.ts1{border-width:0 2px}

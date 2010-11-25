@@ -1,0 +1,187 @@
+*{
+margin:0;
+padding:0;
+list-style:none;
+}
+body {
+font: 70% "Lucida Grande","Lucida Sans Unicode",geneva,verdana,sans-serif;
+margin:10px;
+color:#555;
+}
+
+/* HEADER */
+#header h1{
+text-align:center;
+font:3.5em Georgia;
+font-style:italic;
+color:#222;
+margin-top:50px;
+letter-spacing:-1px;
+}
+#header h1 a{
+color:#222;
+text-decoration:none;
+}
+#header h1 a:hover{
+color:#000;
+background-color:#fff;
+}
+#header h2 {
+text-align:center;
+font:100% Verdana;
+letter-spacing:2px;
+color:#666;
+margin:10px 0 40px;
+}
+p {
+margin:15px 0;
+line-height:19px;
+}
+
+a{
+color:#f10;
+text-decoration:underline;
+}
+
+a:hover{
+color:#fff;
+background-color:#c00;
+}
+
+pre{
+padding:10px 0 10px 20px;
+}
+
+table {
+width:100%;
+padding:5px;
+}
+
+#footer {
+width:600px;
+margin:10px auto 0;
+color:#888;
+}
+
+#footer a {
+color:#666;
+text-decoration:none;
+font-weight:bold;
+}
+
+#footer .right{
+float:right;
+}
+
+#footer .right a:hover{
+color:#fff;
+}
+
+#container{
+align:center;
+width:640px;
+margin:0 auto;
+font:1em Verdana;
+line-height: 1.2em;
+letter-spacing: 0;
+text-align: left;
+word-spacing: normal;
+text-decoration: none;
+color: #444;
+overflow:visible;
+}
+
+#container-code{
+margin:0 auto;
+font:1em Verdana;
+line-height: 1.2em;
+letter-spacing: 0;
+text-align: left;
+word-spacing: normal;
+text-decoration: none;
+color: #444;
+}
+
+.accordion-head{
+margin:5px auto;
+padding:6px 8px 8px 8px;
+height:30px;
+background-color:#06c;
+color:#fff;
+font-size:1.4em;
+cursor:pointer;
+}
+
+.accordion-head:hover{
+cursor:pointer;
+color:#ccc;
+}
+
+.accordion-section{
+margin: 0px auto;
+width: 620px;
+}
+
+.sidebar{
+float:right;
+margin:200px 2% 0px 0px;
+padding:10px 0 0 0;
+width:12%;
+}
+
+.sidebar .header{
+border-bottom:10px solid #06c;
+margin:0 0 10px 0;
+}
+
+.sidebar a{
+color:#333;
+padding:2px 0 2px 0;
+}
+
+.sidebar a:hover{
+color:#fff;
+background-color:#666;
+}
+
+input, textarea {                              
+background-color:#fff;
+border:1px solid #ccc;
+padding:3px;
+font:10px Verdana, Arial, Helvetica, sans-serif;
+color:#777;
+text-align:left;
+}
+
+.type-bold{
+font-weight:bold;
+line-height:20px;
+font-size:16px;
+}
+
+.type-file{
+font-size:1.4em;
+margin:10px;
+line-height:40px;
+}
+
+.code-section{
+margin:16px 0 16px 0;
+}
+.code-title{
+font-weight:bold;
+font-size:1.1em;
+}
+.code-sub{
+font-size:.9em;
+font-style:italic;
+}
+.code-main{}
+
+.code-fyi{
+border:2px solid #ccc;
+width:600px;
+padding:20px;
+margin:20px;
+}
+/*end*/

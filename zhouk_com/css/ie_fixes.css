@@ -1,0 +1,11 @@
+body{
+font-size:90%;
+}
+.accordion-head{
+padding:8px;
+}
+.sidebar{
+float:right;
+margin:200px 0 0 -12%;
+width:12%;
+}
