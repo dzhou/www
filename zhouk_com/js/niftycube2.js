@@ -1,6 +1,6 @@
 var niftyOk=(document.getElementById && document.createElement && Array.prototype.push); var niftyCss=false; String.prototype.find=function(what){ return(this.indexOf(what)>=0 ? true : false);}
 var oldonload=window.onload; if(typeof(NiftyLoad)!='function') NiftyLoad=function(){}; if(typeof(oldonload)=='function')
-window.onload=function(){oldonload();AddCss();NiftyLoad()}; else window.onload=function(){AddCss();NiftyLoad()}; function AddCss(){ niftyCss=true; var l=CreateEl("link"); l.setAttribute("type","text/css"); l.setAttribute("rel","stylesheet"); l.setAttribute("href","niftyCorners.css"); l.setAttribute("media","screen"); document.getElementsByTagName("head")[0].appendChild(l);}
+window.onload=function(){oldonload();AddCss();NiftyLoad()}; else window.onload=function(){AddCss();NiftyLoad()}; function AddCss(){ niftyCss=true; var l=CreateEl("link"); l.setAttribute("type","text/css"); l.setAttribute("rel","stylesheet"); l.setAttribute("href","css/niftyCorners.css"); l.setAttribute("media","screen"); document.getElementsByTagName("head")[0].appendChild(l);}
 function Nifty(selector,options){ if(niftyOk==false) return; if(niftyCss==false) AddCss(); var i,v=selector.split(","),h=0; if(options==null) options=""; if(options.find("fixed-height"))
 h=getElementsBySelector(v[0])[0].offsetHeight; for(i=0;i<v.length;i++)
 Rounded(v[i],options); if(options.find("height")) SameHeight(selector,h);}
