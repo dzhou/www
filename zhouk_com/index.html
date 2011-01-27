@@ -2,28 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<?php
-switch($_GET['s']){
-	case 1: 
-	?>
-<title>Kefei Dan Zhou - Work and Projects</title>
-<meta name="keywords" content="Kefei,Dan,Zhou,upenn,penn,programmer,developer,entrepreneur,work,open source" />
-<meta name="description" content="Portfolio of Kefei Dan Zhou. Work experiences and recent open source projects." />
-	<? break;
-	case 3:
-	?>
-<title>Kefei Dan Zhou - Contact Info</title>
-<meta name="keywords" content="Kefei,Dan,Zhou,UPenn,Penn,SEAS,contact,info,university,student,project,freelance,startup,recruiter,resume" />
-<meta name="description" content="Kefei Dan Zhou. Contact info. Available for freelance and startup projects." />
-	<?
-	default:
-	?>
-<title>Kefei Dan Zhou - UPenn</title>
+<title>Kefei Dan Zhou</title>
 <meta name="keywords" content="Kefei,Dan,Zhou,UPenn,Penn,SEAS,Software,web 2.0,developer,entrepreneur,open source,trading,quant" />
 <meta name="description" content="Kefei Dan Zhou, University of Pennsylvania alumnus, software developer and entrepreneur" />
-	<?
-}
-?>
 <script type="text/javascript" src="js/prototype.lite2.js"></script>
 <script type="text/javascript" src="js/moo.fx2.js"></script>
 <script type="text/javascript" src="js/accordion2.js"></script>
@@ -41,20 +22,23 @@ window.onload = function() {
 	toggler = document.getElementsByClassName('accordion-head');
 	element = document.getElementsByClassName('accordion-section');
 	accordion = new fx.Accordion(toggler, element, {opacity:false});
-<?php
-if (isset($_GET['s'])) {
-	$s = $_GET['s'];
-	if ($s >= 0 && $s <= 3)
-		echo "accordion.showThisHideOpen($s)";
 }
-?>
-}
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20334383-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 </script>
 </head>
 <body id="top">
 <span class='invisible'>designed/coded by kefei dan zhou</span>
 <div id="header">
-<h1><a href="?s=0">kefei dan zhou</a></h1>
+<h1><a href="/">kefei dan zhou</a></h1>
 <h2>DEVELOPER, ENTREPRENEUR</h2>
 </div> 
 <!--
@@ -74,7 +58,7 @@ if (isset($_GET['s'])) {
     I'm particularly interested in algorithms/data structure, open source initiatives, 
     quantitative finance, and trading technology. I currently work at Citi Global Markets.</p>
     <p>
-    In my free time, I like to read about current events, jog around central park, and 
+    In my free time, I like to read about tech and startup news, jog around central park, and 
     occasionally solve some math problems on projecteuler. 
     </p><p>
     <!--I currently work at Citi Global Markets.-->
@@ -130,8 +114,11 @@ if (isset($_GET['s'])) {
         <span class="code-title">Project Euler</span>
         <div class="code-main">
         Occasionally I solve math problems on project euler and check in my code on 
-        <a href="https://github.com/dzhou/Project_Euler" target="_github">github</a>.<br/><br/>
+        <a href="https://github.com/dzhou/project-euler" target="_github">github</a>.<br/><br/>
+        <!--
         <img src="http://projecteuler.net/profile/dzhou.png"/>
+        -->
+        <img src="/images/project_euler_dzhou.png"/>
         </div><br/>
         
         <span class="code-title">Senior design</span>
@@ -152,9 +139,9 @@ if (isset($_GET['s'])) {
 
 <div class="accordion-head" style="background:#4863a0">Contact</div>
 <div class="accordion-section">
-	<p> <span class="type-bold">Kefei D. Zhou</span><br/>
+	<p> <span class="type-bold">Kefei Zhou</span><br/>
     Linkedin: <a href="http://www.linkedin.com/in/kefeizhou" target="_linked">Kefei Zhou</a><br/><br/>
-	Email: kefei (dot) zhou (at) gmail <br/>    
+	Email: <span style="unicode-bidi:bidi-override; direction:ltr;"> kefei (dot) zhou (at) gmail </span><br/>    
     <del>Email: zhouk (at) 
     &#115;&#101;&#97;&#115;&#46;&#117;&#112;&#101;&#110;&#110;&#46;&#101;&#100;&#117;</del><br/>
     <!--Resume: available on request<br/><br/>-->
@@ -173,9 +160,9 @@ if (isset($_GET['s'])) {
 <p>
 <div class="right"><a href="#top">Top</a></div>
 Design: Kefei Dan Zhou <br/>
-&copy Kefei D. Zhou. 2006-10. All rights reserved. <br/>
-<span class='invisible'>Graphics Design by Kefei Daniel Zhou<br/></span>
-<span class='invisible'>Kefei Daniel Zhou, UPenn 2009<br/></span>
+&copy Kefei Zhou. 2006-10. All rights reserved. <br/>
+<span class='invisible'>Graphics Design by Kefei Zhou<br/></span>
+<span class='invisible'>Kefei Zhou, UPenn 2009<br/></span>
 <span class='invisible'>contact: Kefei dot zhou at gmail</span>
 </p>
 </div>
